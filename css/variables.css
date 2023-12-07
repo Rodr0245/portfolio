@@ -1,0 +1,26 @@
+
+:root {
+	/* colors */
+	--bs-primary-rgb: 255, 255, 255; /* RGB values for */
+	--bs-dark: #141414;
+	--bs-dark-rgb: 20, 20, 20;
+}
+
+/* Typography */
+
+@font-face {
+	font-family: FormulaSerial;
+	src: url(../fonts/FormulaSerial.otf);
+}
+@font-face {
+	font-family: HKRequisite-Medium;
+	src: url(../fonts/HKRequisite-Medium.otf);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family:'HKRequisite-Medium', Courier, monospace;	
+}
+
+p{
+	font-family:'FormulaSerial', Courier, monospace;	
+}

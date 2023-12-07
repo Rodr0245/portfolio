@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <script src="https://kit.fontawesome.com/8097ac3239.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!--for scroll animation-->
+</head>
+<body>
+    <header role="banner">
+        <nav class="navbar-blur navbar navbar-expand bg-primary mx-auto fixed-top p-0 rounded-3 mt-4" style="width: 300px;" role="navigation">
+            <div class="container-fluid justify-content-center">
+                <ul class="navbar-nav" role="menubar">
+                    <li class="nav-item" role="menuitem">
+                        <a class="nav-link active home" aria-current="page" href="#banner" tabindex="1">Home</a>
+                    </li>
+                    <li class="nav-item work" role="menuitem">
+                        <a class="nav-link work" href="#banner-height" tabindex="2">Work</a>
+                    </li>
+                    <li class="nav-item about" role="menuitem">
+                        <a class="nav-link about" href="about.html" tabindex="3">About</a>
+                    </li>
+                    <li class="nav-item contact" role="menuitem">
+                        <a class="nav-link contact" href="contact.html" tabindex="4">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> <!-- ends navigation-->
+    </header>
+    <main role="main">
+        <article class="main-banner home" id="banner" role="article" > <!-- starts main banner section-->
+            <div class="w jumbotron d-flex flex-column justify-content-center container" role="group">
+                <p class="lead">Nicolas Ortiz <p>UX Designer</p></p> 
+                <p class="display-6 ">I craft beautiful experiences tailored for people, where design is both seamless yet unforgettable.</p>
+            </div>
+            <div class="container d-flex flex-row justify-content-center">
+                <i class="fa-solid fa-chevron-down fa-fade fa-lg" style="--fa-animation-duration: 2s"></i>
+            </div>
+            <section class="d-flex portfolio-section mt-5" id="banner-height" role="region" aria-label="Portfolio Section"> <!-- starts portfolio banner section  -->
+                <div class=" d-flex flex-column justify-content-center container align-items-center text-center">
+                    <h1 class="pb-5 mb-3 display-2">My Portfolio</h1> 
+                    <p class="h2 pt-5">Selected Projects.</p>
+                    <p class="h2 text-primary text-opacity-50" >These are some of the projects I've done so far,</p>
+                    <p class="h2 text-primary text-opacity-50" >take some time to look around.</p>
+                </div>
+            </section> <!-- ends portfolio banner -->
+        </article> <!-- ends main banner -->
+
+        <section class="container d-flex justify-content-center py-5" role="region" aria-label="Portfolio Highlights Section" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="800"> <!-- starts portfolio highlights section -->
+            <div class="row g-3 ">
+                <div class="col-12 d-flex justify-content-center">
+                    <div class="card w-100 border-0">
+                        <img src="./images/spark-default.png" class="card-img-top portfolio-img" alt="image of SPARK barbershop website Nicolas made">
+                        <div class="card-body">
+                            <h2 class="card-title h5">SPARK Barberbshop</h2>
+                            <p class="project-year ">2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <div class="card w-100 border-0">
+                        <img src="./images/laptop-default.jpg" class="card-img-top portfolio-img" alt="image of a laptop">
+                        <div class="card-body">
+                            <h2 class="card-title h5">Photography</h2>
+                            <p class="project-year">2023</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <div class="card w-100 border-0">
+                        <img src="./images/splash-default.jpg" class="card-img-top portfolio-img" alt="image of an orange falling into a cup of water">
+                        <div class="card-body">
+                            <h2 class="card-title h5">Photography</h2>
+                            <p class="project-year">2023</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- ends portfolio highlights-->
+    </main>
+    <footer role="contentinfo">
+        <hr class="container py-5 my-5"> <!-- divider -->
+        <section class="container"> <!-- starts footer section-->
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <h3 class="display-5 pb-3">Thanks!</h3>
+                    <p>Thank you for taking the time to look at my work, if you'd like to know more about me you can check out my <span>resume</span>here</p>
+                    <p>Find me on social media.</p>
+                    <div class="socials d-flex gap-3">
+                        <a href="http://instagram.com/"><img src="./icons/instagram.svg" alt="instagram icon"></a>
+                        <a href="http://linkedin.com/"><img src="./icons/linkedin.svg" alt="linkedin icon"></a>
+                        <a href="http://youtube.com/"><img src="./icons/youtube.svg" alt="youtube icon"></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <p>Need to talk?</p>
+                    <a class="text-decoration-none" href="#">Nicolasortizdesigns@hotmail.com</a>
+                </div>
+                <div class="col-12 ">
+									<small>© Nicolas Ortiz 2023</small>
+                    <ul class="d-flex gap-3 justify-content-evenly justify-content-md-center py-5 list-unstyled">
+                        <li><a class="link-dark text-decoration-none" href="#banner">Home</a></li>
+                        <li><a class="link-dark text-decoration-none" href="#banner-height">Work</a></li>
+                        <li><a class="link-dark text-decoration-none" href="./about.html">About</a></li>
+                        <li><a class="link-dark text-decoration-none" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer> <!-- ends footer-->
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Bootstrap Javascript -->
+    <script src="./javascript/main-script.js"></script>
+    <script src="./javascript/home-nav.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!--script from Michalsnik - aos in order to fade in items as page scrolls down-->
+		<script>
+			AOS.init();
+		</script> <!--scripts end-->
+</body>
+</html>

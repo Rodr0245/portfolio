@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <script src="https://kit.fontawesome.com/8097ac3239.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> <!--for scroll animation-->
+</head>
+<body>
+    <header role="banner">
+        <nav class="navbar-blur navbar navbar-expand bg-primary mx-auto fixed-top p-0 rounded-3 mt-4" style="width: 300px;" role="navigation">
+            <div class="container-fluid justify-content-center">
+                <ul class="navbar-nav" role=menu>
+                    <li class="nav-item">
+                        <a class="nav-link home text-white" href="./index.html" role="menuitem" tabindex="1">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link work text-white" href="./index.html" role="menuitem" tabindex="2">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active about text-white" aria-current="page" href="./about.html" role="menuitem" tabindex="3">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link contact text-white" href="./contact.html" role="menuitem" tabindex="4">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> <!-- ends navigation -->
+    </header>
+    <main role="main">
+        <section class="d-flex bg-dark text-bg-dark mb-5" id="banner-height" role="region" aria-label="About Me Banner Section"> <!-- starts about me banner section  -->
+            <div class="d-flex flex-column justify-content-center container align-items-center text-center">
+                <h1 class="pb-5 mb-3 display-2">Nicolas Ortiz</h1> 
+                <p class="h2 pt-5">About Me.</p>
+                <p class="h2 text-primary text-opacity-75" >Here is a little information about myself, what I do,
+                    and</p>
+                <p class="h2 text-primary text-opacity-75" >who I am.</p>
+            </div>
+        </section> <!-- ends about me banner -->
+        <section class="container py-5 beyond" role="region" aria-label="About Me Section"> <!-- starts about me section -->
+            <article class="text-center py-5" role="article" aria-label="About Me Article"><!-- starts about me article -->
+                <h2 class="pb-5 display-6">Beyond The Screen.</h2>
+                <p class="h5 lh-lg">Hey, I'm Nicolas Ortiz, currently studying Interactive Media Design in
+                        Ottawa with a goal to become a UX Designer.  I'm passionate about 
+                        crafting visually stunning, user-centric websites. Beyond aesthetics, I focus on
+                        creating seamless journeys for people. As a creative problem thinker,
+                        challenges are my playground for turning roadblocks into innovative solutions.
+                        Eager to bring my unique touch to the UX world and craft extraordinary experiences.</p>
+                <p class="h3 p-4 text-secondary">Let's create something awesome together!</p>
+            </article> <!-- ends about me article -->
+            <div data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="800"> <!-- starts "currents" cards section -->
+                <div class="row row-cols-1 row-cols-md-3 g-4 g-md-5 py-5 justify-content-center">
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow rounded-3">
+                            <div class="card-body w-lg-75">
+                                <p class="card-title lead">Currently Reading</p>
+                                <p class="card-text text-secondary">Harry Potter and the Prisoner of Azkaban.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow rounded-3">
+                            <div class="card-body w-lg-75">
+                                <p class="card-title lead">Currently Watching</p>
+                                <p class="card-text text-secondary">The Office.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 shadow rounded-3">
+                            <div class="card-body w-lg-75">
+                                <p class="card-title lead">Currently Learning</p>
+                                <p class="card-text text-secondary">Javascript.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- ends "currents" cards section-->
+            </div>
+        </section> <!-- ends about me section-->
+        <section class="container py-5" role="region" aria-label="Gallery Section"> <!-- starts gallery section -->
+            <article class="py-md-5 text-center text-md-start w-100 ">
+                <h3 class="h2">I'm also into Photography & Videography.</h3>
+                <p class="h5 pt-3">As much as I enjoy designing websites, I also very much enjoy using my camera.
+                    Taking photos and videos is another creative outlet I have and enjoy.</p>
+            </article>
+            <div class="row d-flex align-items-center g-3 pt-5" data-aos="fade-in" data-aos-easing="ease-in" data-aos-duration="800">
+                <div class="col-md-4">
+                    <img alt="camera image" src="./images/cam-default.jpg" class="img-fluid rounded-5 portfolio-img" />
+                </div>
+                <div class=" col-md-8 pb-5 mb-5">
+                    <div class="row ">
+                        <img src="./images/majo-default.png" alt="wedding image" class="img-fluid rounded-5 portfolio-img">
+                        <div class="row mx-0 px-0 pt-3">
+                            <img src="./images/food-default.png" alt="food plate image" class="img-fluid col-12 col-md-6 rounded-5 portfolio-img">
+                            <img src="./images/laptop-default.jpg" alt="macbook image" class="img-fluid col-12 col-md-6 rounded-5 portfolio-img g-3">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- ends gallery section -->
+    </main>
+		<footer role="contentinfo">
+			<hr class="container py-5 my-5"> <!-- divider -->
+			<section class="container"> <!-- starts footer section-->
+					<div class="row g-5">
+							<div class="col-lg-6">
+									<h3 class="display-5 pb-3">Thanks!</h3>
+									<p>Thank you for taking the time to look at my work, if you'd like to know more about me you can check out my <span>resume</span>here</p>
+									<p>Find me on social media.</p>
+									<div class="socials d-flex gap-3">
+											<a href="http://instagram.com/"><img src="./icons/instagram.svg" alt="instagram icon"></a>
+											<a href="http://linkedin.com/"><img src="./icons/linkedin.svg" alt="linkedin icon"></a>
+											<a href="http://youtube.com/"><img src="./icons/youtube.svg" alt="youtube icon"></a>
+									</div>
+							</div>
+							<div class="col-lg-6">
+									<p>Need to talk?</p>
+									<a class="text-decoration-none" href="#">Nicolasortizdesigns@hotmail.com</a>
+							</div>
+							<div class="col-12 ">
+								<small>© Nicolas Ortiz 2023</small>
+									<ul class="d-flex gap-3 justify-content-evenly justify-content-md-center py-5 list-unstyled">
+											<li><a class="link-dark text-decoration-none" href="./index.html">Home</a></li>
+											<li><a class="link-dark text-decoration-none" href="./index.html">Work</a></li>
+											<li><a class="link-dark text-decoration-none" href="./about.html">About</a></li>
+											<li><a class="link-dark text-decoration-none" href="./contact.html">Contact</a></li>
+									</ul>
+							</div>
+					</div>
+			</section>
+	</footer> <!-- ends footer-->
+    <!-- Bootstrap Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Bootstrap Javascript -->
+    <script src="./javascript/about.nav.js"></script>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script> <!--script from Michalsnik - aos in order to fade in items as page scrolls down-->
+		<script>
+			AOS.init();
+		</script> <!--scripts end-->
+</body>
+</html>
