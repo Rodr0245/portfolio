@@ -38,4 +38,7 @@
   - FormulaSerial Regular (License obtained and included)
   - HK Requisite Bold (License obtained and included)
 
-- Nicolas Rodriguez Ortiz
+
+
+
+  Nicolas Rodriguez Ortiz
